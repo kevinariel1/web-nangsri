@@ -1,0 +1,87 @@
+body{
+    background-color: wheat;
+    padding-top: 86px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.logo-container{
+    width: 230px;
+    height: 70px;
+    padding: 8px;
+}
+
+.nav-item
+.nav-link{
+    margin-right: 30px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #ffffff;
+}
+
+.menus{
+    display: flex;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.carousel{
+    width: 100%;
+}
+
+#mainNav {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+#mainNav.scrolled {
+    background-color: #ffffff; /* Change this to the desired background color when scrolled */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow when scrolled */
+}
+
+#carouselExampleCaptions {
+    height: 90vh; /* Set the desired height (70% of the viewport height in this example) */
+    margin-top: -86px; /* Adjust this value to match the height of your navbar */
+}
+
+#carouselExampleCaptions {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Adjust this value as needed */
+}
+
+.carousel-item{
+    max-height: 90vh; /* Set the desired height (70% of the viewport height in this example) */
+}
+
+#mainNav.scrolled .nav-link,
+#mainNav.scrolled-link .nav-link {
+    color: black;
+}
+
+.rowone{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.rowtwo{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bar-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    background: white;
+}
