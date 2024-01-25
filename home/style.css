@@ -85,3 +85,41 @@ body{
     padding: 30px;
     background: white;
 }
+
+.footer-left{
+    width: 25%;
+    height: auto;
+    text-align: start;
+    margin-right: 12%;
+}
+
+.footer-right{
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-left p{
+    font-size: 14px;
+}
+
+.footer-left h6{
+    padding-bottom: 10px;
+}
+
+.footer-right p{
+    font-size: 14px;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

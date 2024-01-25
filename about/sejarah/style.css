@@ -1,0 +1,130 @@
+body{
+    background-color: wheat;
+    padding-top: 86px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.logo-container{
+    width: 230px;
+    height: 70px;
+    padding: 8px;
+}
+
+.nav-item
+.nav-link{
+    margin-right: 30px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: black;
+}
+
+.menus{
+    display: flex;
+    align-items: left;
+    margin-left: 100px;
+}
+
+#mainNav {
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
+
+#mainNav.scrolled {
+    background-color: #ffffff; /* Change this to the desired background color when scrolled */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow when scrolled */
+}
+
+#mainNav.scrolled .nav-link,
+#mainNav.scrolled-link .nav-link {
+    color: black;
+}
+
+.header img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    z-index: -1;
+    position: relative;
+    display: inline-block;
+}
+
+.header-text{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white; /* You can set the text color to match your design */
+}
+
+.article{
+    position: relative;
+    padding: 50px;
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    text-align: justify;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.article img{
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+    margin-top: 11px;
+    float: left;
+}
+
+.article p{
+    overflow: hidden;
+    line-height: 2;
+}
+
+.footer-bar-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    background: white;
+}
+
+.footer-left{
+    width: 25%;
+    height: auto;
+    text-align: start;
+    margin-right: 12%;
+}
+
+.footer-right{
+    width: 25%;
+    height: auto;
+    text-align: start;
+}
+
+.footer-left p{
+    font-size: 14px;
+}
+
+.footer-left h6{
+    padding-bottom: 10px;
+}
+
+.footer-right p{
+    font-size: 14px;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
