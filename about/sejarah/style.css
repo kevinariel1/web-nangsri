@@ -60,9 +60,49 @@ body{
     color: white; /* You can set the text color to match your design */
 }
 
-.article{
+.navigation-divider {
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+
+.navigation-divider i {
+    font-size: 24px;
+}
+
+.navigation-divider a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: inline-block; /* Set display to inline-block */
+    width: fit-content; /* Set width to fit content */
+}
+
+.navigation-divider span {
+    margin-right: 10px; /* Adjusted margin */
+}
+
+.navigation-divider label{
+    margin-right: 50px;
+    font-style: italic;
+}
+
+.right-div {
+    margin-left: auto; /* Push label to the right */
+}
+
+.left-div{
+    margin-left: 40px;
+}
+
+.article {
     position: relative;
-    padding: 50px;
+    padding: 40px 50px 50px 50px;
     margin: 10px 100px 10px 100px;
     display: flex;
     text-align: justify;
@@ -70,17 +110,21 @@ body{
     justify-content: flex-start;
 }
 
-.article img{
+.article img {
     width: 30%;
     height: 30%;
     margin-right: 20px;
     margin-top: 11px;
     float: left;
+    border-radius: 30px;
 }
 
-.article p{
+.article p {
     overflow: hidden;
     line-height: 2;
+    background-color: #ffffff;
+    padding: 50px 75px 75px 75px;
+    border-radius: 30px;
 }
 
 .footer-bar-container{

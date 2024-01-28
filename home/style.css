@@ -21,6 +21,15 @@ body{
     color: #ffffff;
 }
 
+.card-img-top{
+    height: 175px;
+    object-fit: cover;
+}
+
+.carousels{
+    object-fit: cover;
+}
+
 .menus{
     display: flex;
     align-items: left;
